@@ -1,0 +1,8 @@
+{
+  "name": "pixi-tiled",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/KayacChang/pixi-tiled.git",
+  "author": "kayac <egg734631@gmail.com>",
+  "license": "MIT"
+}
