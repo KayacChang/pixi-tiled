@@ -1,8 +1,21 @@
 {
-  "name": "pixi-tiled",
-  "version": "1.0.0",
-  "main": "index.js",
+  "name": "@kayac/pixi-tiled",
+  "version": "0.1.0",
+  "main": "dist/lib/index.js",
+  "types": "dist/types/index.d.ts",
   "repository": "https://github.com/KayacChang/pixi-tiled.git",
   "author": "kayac <egg734631@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "peerDependencies": {
+    "pixi.js": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "^14.6.2",
+    "@types/pixi.js": "^5.0.0",
+    "typescript": "^3.0.3",
+    "ts-node": "^7.0.1"
+  },
+  "scripts": {
+    "build": "tsc -p ."
+  }
 }
